@@ -58,8 +58,8 @@ public class GameLogic : MonoBehaviour
 
         if (NetworkManager.Singleton.Server.ClientCount >= 2)
         {
-            StartCoroutine(LoadSceneInBackground(2));
-            StartCoroutine(GameCountdown());
+            //StartCoroutine(LoadSceneInBackground(2));
+            //StartCoroutine(GameCountdown());
         }
     }
 
